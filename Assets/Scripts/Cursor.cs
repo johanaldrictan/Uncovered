@@ -42,6 +42,6 @@ public class Cursor : MonoBehaviour
 
     public void Dig()
     {
-        Vector3 currentcell = 
+        //Vector3 currentcell = 
     }
 }
