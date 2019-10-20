@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class Cursor : MonoBehaviour
 {
@@ -13,10 +14,15 @@ public class Cursor : MonoBehaviour
 
     public int hits;
 
+    private GameObject ButtonScriptObject;
+
+    public Image ProgressBar;
+
     // Start is called before the first frame update
     void Start()
     {
         hits = 0;
+        ButtonScriptObject = GameObject.Find("Button Script");
     }
 
     // Update is called once per frame
@@ -28,21 +34,22 @@ public class Cursor : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.W) && transform.position.y < 4) {
             Move(Vector2.up);
         }
-        if (Input.GetKeyDown(KeyCode.A) && transform.position.x > -6) {
+        if (Input.GetKeyDown(KeyCode.A) && transform.position.x > -8) {
             Move(Vector2.left);
         }
         if (Input.GetKeyDown(KeyCode.S) && transform.position.y > -4) {
             Move(Vector2.down);
         }
-        if (Input.GetKeyDown(KeyCode.D) && transform.position.x < 6) {
+        if (Input.GetKeyDown(KeyCode.D) && transform.position.x < 4) {
             Move(Vector2.right);
         }
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            Dig(transform.position);
-        }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
-            BigDig(transform.position);
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)) {
+            if (ButtonScriptObject.GetComponent<ExcavationButton>().BigDigOn()) {
+                BigDig(transform.position);
+            } else {
+                Dig(transform.position);
+            }
+            ProgressBar.fillAmount = (float) hits / 50;
         }
 
 
@@ -68,15 +75,14 @@ public class Cursor : MonoBehaviour
             Vector3Int currentcell = Layer1.WorldToCell(position);
             Layer1.SetTile(currentcell, null);
         }
-        //Transform bar = transform.Find("")
     }
 
     public void BigDig(Vector2 position)
     {
         bool canUp = position.y < 4;
         bool canDown = position.y > -4;
-        bool canLeft = position.x > -6;
-        bool canRight = position.x < 6;
+        bool canLeft = position.x > -8;
+        bool canRight = position.x < 4;
 
         Dig(position);
         if (canUp) {
