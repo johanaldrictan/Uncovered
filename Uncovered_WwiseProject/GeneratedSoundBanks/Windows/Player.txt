@@ -1,5 +1,4 @@
 Event	ID	Name			Wwise Object Path	Notes
-	3833599577	Play_SFX_Coin			\Default Work Unit\Play_SFX_Coin	
 	3902146761	Play_SFX_Walk			\Default Work Unit\Play_SFX_Walk	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -29,7 +28,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	805482936	Sand_Walk4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk4		78092
 	822688209	Dirt_Walk1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dirt_Walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Dirt\Dirt_Walk1		57616
 	837896875	Gravel_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk3		76516
-	873785404	Coin	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin		154480
 	885252225	Sand_Walk5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk5		78880
 	893903728	Grass_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Grass_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Grass\Grass_Walk3		80452
 	935191662	Gravel_Walk2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk2		76516
