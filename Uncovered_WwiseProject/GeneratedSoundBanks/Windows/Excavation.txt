@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1570490760	Play_SFX_Excav_Found			\Default Work Unit\Play_SFX_Excav_Found	
 	1701975916	Play_SFX_Excav_Brush			\Default Work Unit\Play_SFX_Excav_Brush	
 	3121859900	Play_SFX_Excav_Dig			\Default Work Unit\Play_SFX_Excav_Dig	
+	3833599577	Play_SFX_Coin			\Default Work Unit\Play_SFX_Coin	
 	4274094232	Play_SFX_Excav_Fail			\Default Work Unit\Play_SFX_Excav_Fail	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
@@ -18,4 +19,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	722675397	Brush1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush1		123100
 	793283419	Dig3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dig3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig3		95416
 	852794906	ExcavationFail	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\ExcavationFail_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ExcavationFail		757704
+	873785404	Coin	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin		154480
 

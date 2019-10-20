@@ -14,7 +14,7 @@ public class KeyObject1 : MonoBehaviour
     bool player = false;
     bool dia = false;
     public string key = "NONO";
-    
+    public PosSave positioner;
     private bool MAINOBJECT = false;
     
    
@@ -27,12 +27,14 @@ public class KeyObject1 : MonoBehaviour
     {
         logger = DialogueManager.FindObjectOfType<DialogueManager>();
         iMan = ItemManager.FindObjectOfType<ItemManager>();
+        positioner = PosSave.FindObjectOfType<PosSave>();
     }
     // Update is called once per frame
     void Update()
     {
         
         if(Input.GetKeyDown(KeyCode.Space) && player){
+            DontDestroyOnLoad(positioner);
             SceneManager.LoadScene(1);
         }
     }
@@ -42,7 +44,6 @@ public class KeyObject1 : MonoBehaviour
         if(other.CompareTag("Player"))
         {
         player = true;
-        iMan.found1ON();
         Debug.Log(other.GetType());
         Debug.Log("WORKS");
         }

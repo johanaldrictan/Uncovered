@@ -38,6 +38,7 @@ public class Cursor : MonoBehaviour
         if (hits >= 50)
         {
             Debug.Log("loselseosles");
+            StartCoroutine(PlayFail());
             Exit();
         }
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < 4)
@@ -61,15 +62,31 @@ public class Cursor : MonoBehaviour
             if (ButtonScriptObject.GetComponent<ExcavationButton>().BigDigOn())
             {
                 BigDig(transform.position);
+                AkSoundEngine.PostEvent("Play_SFX_Excav_Dig", gameObject);
             }
             else
             {
                 Dig(transform.position);
+                AkSoundEngine.PostEvent("Play_SFX_Excav_Brush", gameObject);
             }
             ProgressBar.fillAmount = (float)hits / 50;
             if (finds >= find_limit)
             {
-                Debug.Log("You Win!");
+                    Debug.Log("You Win!");
+                    StartCoroutine(PlayFound());
+
+                    if (SceneManager.GetActiveScene().name == "Dig 1") {
+                        Global.item1found = true;
+                    } else if (SceneManager.GetActiveScene().name == "Dig 2") {
+                        Global.item2found = true;
+                    } else if (SceneManager.GetActiveScene().name == "Dig 3") {
+                        /*
+
+                        ADD ENDING SCENEN IF POSSIBLE HEREHR
+
+
+                         */
+                       }
                 Exit();
             }
         }
@@ -103,6 +120,7 @@ public class Cursor : MonoBehaviour
             {
                 Debug.Log("Found Something");
                 finds++;
+                AkSoundEngine.PostEvent("Play_SFX_Coin", gameObject);
             }
         }
     }
@@ -155,8 +173,18 @@ public class Cursor : MonoBehaviour
 
     }
 
-    public void ExitComplete() 
+    public void ExitComplete()
     {
         SceneManager.LoadScene(0);
+    }
+    IEnumerator PlayFail()
+    {
+        AkSoundEngine.PostEvent("Play_SFX_Excav_Found", gameObject);
+        yield return new WaitForSeconds(4.0f);
+    }
+    IEnumerator PlayFound()
+    {
+        AkSoundEngine.PostEvent("Play_SFX_Excav_Found", gameObject);
+        yield return new WaitForSeconds(1.0f);
     }
 }

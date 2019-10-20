@@ -3,17 +3,17 @@
 	<Platform GUID="{A41D9ABF-F7E8-433C-8483-22538A4C784B}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Excavation" Hash="4055745984" Timestamp="1571607646"/>
+				<File Name="Excavation" Hash="3379034088" Timestamp="1571612263"/>
 				<File Name="Init" Hash="2647710745" Timestamp="1571575153"/>
 				<File Name="Master" Hash="3212954879" Timestamp="1571574694"/>
-				<File Name="Player" Hash="851552972" Timestamp="1571607625"/>
+				<File Name="Player" Hash="318668805" Timestamp="1571612261"/>
 				<File Name="Uncovered" Hash="3260559070" Timestamp="1571604894"/>
 				<File Name="World" Hash="221793268" Timestamp="1571607624"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1236881659" Timestamp="1571607646"/>
+				<File Name="" Hash="3071386507" Timestamp="1571612263"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
