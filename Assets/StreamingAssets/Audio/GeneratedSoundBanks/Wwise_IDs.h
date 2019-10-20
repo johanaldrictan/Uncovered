@@ -48,8 +48,10 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID EXCAVATION = 2525109375U;
         static const AkUniqueID MASTER = 4056684167U;
-        static const AkUniqueID UNCOVERED = 2407602878U;
+        static const AkUniqueID PLAYER = 1069431850U;
+        static const AkUniqueID WORLD = 2609808943U;
     } // namespace BANKS
 
     namespace BUSSES

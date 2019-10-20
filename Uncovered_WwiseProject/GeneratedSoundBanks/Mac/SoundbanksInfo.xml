@@ -11,10 +11,221 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="1069431850" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Player</ObjectPath>
+			<ShortName>Player</ShortName>
+			<Path>Player.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3833599577" Name="Play_SFX_Coin" ObjectPath="\Events\Default Work Unit\Play_SFX_Coin" DurationType="OneShot" DurationMin="0.757354" DurationMax="1.010947"/>
+				<Event Id="3902146761" Name="Play_SFX_Walk" ObjectPath="\Events\Default Work Unit\Play_SFX_Walk" DurationType="OneShot" DurationMin="0.282075" DurationMax="1.397767"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="27833856" Language="SFX">
+					<ShortName>Sand_Walk2.wav</ShortName>
+					<Path>SFX\Sand_Walk2_10C4C929.wem</Path>
+				</File>
+				<File Id="43826471" Language="SFX">
+					<ShortName>Dirt_Walk2.wav</ShortName>
+					<Path>SFX\Dirt_Walk2_10C4C929.wem</Path>
+				</File>
+				<File Id="48977136" Language="SFX">
+					<ShortName>Wood_Walk3.wav</ShortName>
+					<Path>SFX\Wood_Walk3_10C4C929.wem</Path>
+				</File>
+				<File Id="131420478" Language="SFX">
+					<ShortName>Gravel_Walk5.wav</ShortName>
+					<Path>SFX\Gravel_Walk5_10C4C929.wem</Path>
+				</File>
+				<File Id="221023120" Language="SFX">
+					<ShortName>Sand_Walk1.wav</ShortName>
+					<Path>SFX\Sand_Walk1_10C4C929.wem</Path>
+				</File>
+				<File Id="282696491" Language="SFX">
+					<ShortName>Wood_Walk1.wav</ShortName>
+					<Path>SFX\Wood_Walk1_10C4C929.wem</Path>
+				</File>
+				<File Id="379701067" Language="SFX">
+					<ShortName>Wood_Walk2.wav</ShortName>
+					<Path>SFX\Wood_Walk2_10C4C929.wem</Path>
+				</File>
+				<File Id="419470561" Language="SFX">
+					<ShortName>Gravel_Walk4.wav</ShortName>
+					<Path>SFX\Gravel_Walk4_10C4C929.wem</Path>
+				</File>
+				<File Id="500237650" Language="SFX">
+					<ShortName>Gravel_Walk7.wav</ShortName>
+					<Path>SFX\Gravel_Walk7_10C4C929.wem</Path>
+				</File>
+				<File Id="581909238" Language="SFX">
+					<ShortName>Grass_Walk2.wav</ShortName>
+					<Path>SFX\Grass_Walk2_10C4C929.wem</Path>
+				</File>
+				<File Id="586218598" Language="SFX">
+					<ShortName>Gravel_Walk1.wav</ShortName>
+					<Path>SFX\Gravel_Walk1_10C4C929.wem</Path>
+				</File>
+				<File Id="598451868" Language="SFX">
+					<ShortName>Dirt_Walk4.wav</ShortName>
+					<Path>SFX\Dirt_Walk4_10C4C929.wem</Path>
+				</File>
+				<File Id="756095550" Language="SFX">
+					<ShortName>Gravel_Walk6.wav</ShortName>
+					<Path>SFX\Gravel_Walk6_10C4C929.wem</Path>
+				</File>
+				<File Id="805482936" Language="SFX">
+					<ShortName>Sand_Walk4.wav</ShortName>
+					<Path>SFX\Sand_Walk4_10C4C929.wem</Path>
+				</File>
+				<File Id="822688209" Language="SFX">
+					<ShortName>Dirt_Walk1.wav</ShortName>
+					<Path>SFX\Dirt_Walk1_10C4C929.wem</Path>
+				</File>
+				<File Id="837896875" Language="SFX">
+					<ShortName>Gravel_Walk3.wav</ShortName>
+					<Path>SFX\Gravel_Walk3_10C4C929.wem</Path>
+				</File>
+				<File Id="873785404" Language="SFX">
+					<ShortName>Coin.wav</ShortName>
+					<Path>SFX\Coin_10C4C929.wem</Path>
+				</File>
+				<File Id="885252225" Language="SFX">
+					<ShortName>Sand_Walk5.wav</ShortName>
+					<Path>SFX\Sand_Walk5_10C4C929.wem</Path>
+				</File>
+				<File Id="893903728" Language="SFX">
+					<ShortName>Grass_Walk3.wav</ShortName>
+					<Path>SFX\Grass_Walk3_10C4C929.wem</Path>
+				</File>
+				<File Id="935191662" Language="SFX">
+					<ShortName>Gravel_Walk2.wav</ShortName>
+					<Path>SFX\Gravel_Walk2_10C4C929.wem</Path>
+				</File>
+				<File Id="1020324169" Language="SFX">
+					<ShortName>Sand_Walk3.wav</ShortName>
+					<Path>SFX\Sand_Walk3_10C4C929.wem</Path>
+				</File>
+				<File Id="1031546754" Language="SFX">
+					<ShortName>Grass_Walk1.wav</ShortName>
+					<Path>SFX\Grass_Walk1_10C4C929.wem</Path>
+				</File>
+				<File Id="1036905927" Language="SFX">
+					<ShortName>Dirt_Walk3.wav</ShortName>
+					<Path>SFX\Dirt_Walk3_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2525109375" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Excavation</ObjectPath>
+			<ShortName>Excavation</ShortName>
+			<Path>Excavation.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1701975916" Name="Play_SFX_Excav_Brush" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Brush" DurationType="OneShot" DurationMin="0.603383" DurationMax="1.738190"/>
+				<Event Id="3121859900" Name="Play_SFX_Excav_Dig" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Dig" DurationType="OneShot" DurationMin="0.467547" DurationMax="0.624100"/>
+				<Event Id="4274094232" Name="Play_SFX_Excav_Fail" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Fail" DurationType="OneShot" DurationMin="3.717175" DurationMax="4.961834"/>
+				<Event Id="1570490760" Name="Play_SFX_Excav_Found" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Found" DurationType="OneShot" DurationMin="0.924104" DurationMax="0.924104"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="61935095" Language="SFX">
+					<ShortName>Brush6.wav</ShortName>
+					<Path>SFX\Brush6_10C4C929.wem</Path>
+				</File>
+				<File Id="81253111" Language="SFX">
+					<ShortName>Dig5.wav</ShortName>
+					<Path>SFX\Dig5_10C4C929.wem</Path>
+				</File>
+				<File Id="92733396" Language="SFX">
+					<ShortName>Brush4.wav</ShortName>
+					<Path>SFX\Brush4_10C4C929.wem</Path>
+				</File>
+				<File Id="129270777" Language="SFX">
+					<ShortName>Dig2.wav</ShortName>
+					<Path>SFX\Dig2_10C4C929.wem</Path>
+				</File>
+				<File Id="207061055" Language="SFX">
+					<ShortName>ExcavationFound.wav</ShortName>
+					<Path>SFX\ExcavationFound_10C4C929.wem</Path>
+				</File>
+				<File Id="296835804" Language="SFX">
+					<ShortName>Brush5.wav</ShortName>
+					<Path>SFX\Brush5_10C4C929.wem</Path>
+				</File>
+				<File Id="347400003" Language="SFX">
+					<ShortName>Brush2.wav</ShortName>
+					<Path>SFX\Brush2_10C4C929.wem</Path>
+				</File>
+				<File Id="369913505" Language="SFX">
+					<ShortName>Dig1.wav</ShortName>
+					<Path>SFX\Dig1_10C4C929.wem</Path>
+				</File>
+				<File Id="412740056" Language="SFX">
+					<ShortName>Dig4.wav</ShortName>
+					<Path>SFX\Dig4_10C4C929.wem</Path>
+				</File>
+				<File Id="598303621" Language="SFX">
+					<ShortName>Brush3.wav</ShortName>
+					<Path>SFX\Brush3_10C4C929.wem</Path>
+				</File>
+				<File Id="722675397" Language="SFX">
+					<ShortName>Brush1.wav</ShortName>
+					<Path>SFX\Brush1_10C4C929.wem</Path>
+				</File>
+				<File Id="793283419" Language="SFX">
+					<ShortName>Dig3.wav</ShortName>
+					<Path>SFX\Dig3_10C4C929.wem</Path>
+				</File>
+				<File Id="852794906" Language="SFX">
+					<ShortName>ExcavationFail.wav</ShortName>
+					<Path>SFX\ExcavationFail_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="2609808943" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\World</ObjectPath>
+			<ShortName>World</ShortName>
+			<Path>World.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3621165624" Name="Play_MUS_Overworld" ObjectPath="\Events\Default Work Unit\Play_MUS_Overworld" DurationType="Infinite"/>
+				<Event Id="1395785617" Name="Play_SFX_Amb_Seagulls" ObjectPath="\Events\Default Work Unit\Play_SFX_Amb_Seagulls" DurationType="OneShot" DurationMin="5.935111" DurationMax="7.922422"/>
+				<Event Id="1251254653" Name="Play_SFX_Amb_Secret" ObjectPath="\Events\Default Work Unit\Play_SFX_Amb_Secret" DurationType="OneShot" DurationMin="11.885681" DurationMax="15.865481"/>
+				<Event Id="3409418128" Name="Play_SFX_Ocean" ObjectPath="\Events\Default Work Unit\Play_SFX_Ocean" DurationType="Infinite"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1492024762" Name="Stop_MUS_Overworld" ObjectPath="\Events\Default Work Unit\Stop_MUS_Overworld" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="140393224" Language="SFX">
+					<ShortName>SidewalkAmbience.wav</ShortName>
+					<Path>SFX\SidewalkAmbience_10C4C929.wem</Path>
+				</File>
+				<File Id="528425118" Language="SFX">
+					<ShortName>SeagullsAmbience.wav</ShortName>
+					<Path>SFX\SeagullsAmbience_10C4C929.wem</Path>
+				</File>
+				<File Id="530410544" Language="SFX">
+					<ShortName>SeagullsAmbience3.wav</ShortName>
+					<Path>SFX\SeagullsAmbience3_10C4C929.wem</Path>
+				</File>
+				<File Id="637795579" Language="SFX">
+					<ShortName>OceanWaves.wav</ShortName>
+					<Path>SFX\OceanWaves_D79FB2B7.wem</Path>
+				</File>
+				<File Id="757806272" Language="SFX">
+					<ShortName>SPR_NightTheme.wav</ShortName>
+					<Path>SFX\SPR_NightTheme_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1028420687" Language="SFX">
+					<ShortName>SeagullsAmbience2.wav</ShortName>
+					<Path>SFX\SeagullsAmbience2_10C4C929.wem</Path>
+				</File>
+				<File Id="1032765659" Language="SFX">
+					<ShortName>PlaygroundAmbience.wav</ShortName>
+					<Path>SFX\PlaygroundAmbience_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="4056684167" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\Master</ObjectPath>
