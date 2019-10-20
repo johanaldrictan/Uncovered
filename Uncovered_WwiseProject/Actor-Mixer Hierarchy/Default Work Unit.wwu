@@ -1183,6 +1183,9 @@
 							</ModifierList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{4FA6F7E4-8F7D-4E91-ABD6-B5E1EB84120D}">
@@ -1522,6 +1525,11 @@
 									<Modifier Name="" ID="{99CD8010-94C4-43E9-9699-5B7D65B04058}"/>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>

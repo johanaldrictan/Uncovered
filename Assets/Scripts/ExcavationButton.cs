@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ExcavationButton : MonoBehaviour
 {
-    
+
     public Sprite RedOff;
     public Sprite RedOn;
     public Sprite GreenOff;
@@ -28,7 +28,8 @@ public class ExcavationButton : MonoBehaviour
 
     public void PressRed()
     {
-        if (!RedStatus) {
+        if (!RedStatus)
+        {
             Red.image.sprite = RedOn;
             Green.image.sprite = GreenOff;
             RedStatus = true;
@@ -38,7 +39,8 @@ public class ExcavationButton : MonoBehaviour
 
     public void PressGreen()
     {
-        if (!GreenStatus) {
+        if (!GreenStatus)
+        {
             Red.image.sprite = RedOff;
             Green.image.sprite = GreenOn;
             RedStatus = false;
@@ -46,7 +48,8 @@ public class ExcavationButton : MonoBehaviour
         }
     }
 
-    public bool BigDigOn() {
+    public bool BigDigOn()
+    {
         return RedStatus;
     }
 }

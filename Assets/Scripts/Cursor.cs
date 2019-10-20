@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Cursor : MonoBehaviour
 {
@@ -21,6 +22,8 @@ public class Cursor : MonoBehaviour
 
     public Image ProgressBar;
 
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,30 +35,53 @@ public class Cursor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(hits >= 50) {
+        if (hits >= 50)
+        {
             Debug.Log("loselseosles");
+            Exit();
         }
-        if(Input.GetKeyDown(KeyCode.W) && transform.position.y < 4) {
+        if (Input.GetKeyDown(KeyCode.W) && transform.position.y < 4)
+        {
             Move(Vector2.up);
         }
-        if (Input.GetKeyDown(KeyCode.A) && transform.position.x > -8) {
+        if (Input.GetKeyDown(KeyCode.A) && transform.position.x > -8)
+        {
             Move(Vector2.left);
         }
-        if (Input.GetKeyDown(KeyCode.S) && transform.position.y > -4) {
+        if (Input.GetKeyDown(KeyCode.S) && transform.position.y > -4)
+        {
             Move(Vector2.down);
         }
-        if (Input.GetKeyDown(KeyCode.D) && transform.position.x < 4) {
+        if (Input.GetKeyDown(KeyCode.D) && transform.position.x < 3)
+        {
             Move(Vector2.right);
         }
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return)) {
-            if (ButtonScriptObject.GetComponent<ExcavationButton>().BigDigOn()) {
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+        {
+            if (ButtonScriptObject.GetComponent<ExcavationButton>().BigDigOn())
+            {
                 BigDig(transform.position);
-            } else {
+            }
+            else
+            {
                 Dig(transform.position);
             }
-            ProgressBar.fillAmount = (float) hits / 50;
-            if(finds >= find_limit) {
-                Debug.Log("You Win!");
+            ProgressBar.fillAmount = (float)hits / 50;
+            if (finds >= find_limit)
+            {
+                if (SceneManager.GetActiveScene().name == "Dig 1") {
+                    Global.item1found = true;
+                } else if (SceneManager.GetActiveScene().name == "Dig 2") {
+                    Global.item2found = true;
+                } else if (SceneManager.GetActiveScene().name == "Dig 3") {
+                    /*
+                    
+                    ADD ENDING SCENEN IF POSSIBLE HEREHR
+                    
+                    
+                     */
+                }
+                Exit();
             }
         }
 
@@ -70,18 +96,22 @@ public class Cursor : MonoBehaviour
     public void Dig(Vector2 position)
     {
         hits++;
-        if (Layer3.GetTile(Layer3.WorldToCell(position)) != null) {
+        if (Layer3.GetTile(Layer3.WorldToCell(position)) != null)
+        {
             Vector3Int currentcell = Layer3.WorldToCell(position);
             Layer3.SetTile(currentcell, null);
         }
-        else if (Layer2.GetTile(Layer2.WorldToCell(position)) != null) {
+        else if (Layer2.GetTile(Layer2.WorldToCell(position)) != null)
+        {
             Vector3Int currentcell = Layer2.WorldToCell(position);
             Layer2.SetTile(currentcell, null);
         }
-        else if (Layer1.GetTile(Layer1.WorldToCell(position)) != null) {
+        else if (Layer1.GetTile(Layer1.WorldToCell(position)) != null)
+        {
             Vector3Int currentcell = Layer1.WorldToCell(position);
             Layer1.SetTile(currentcell, null);
-            if (ItemLayer.GetTile(ItemLayer.WorldToCell(position)) != null) {
+            if (ItemLayer.GetTile(ItemLayer.WorldToCell(position)) != null)
+            {
                 Debug.Log("Found Something");
                 finds++;
             }
@@ -96,29 +126,48 @@ public class Cursor : MonoBehaviour
         bool canRight = position.x < 4;
 
         Dig(position);
-        if (canUp) {
+        if (canUp)
+        {
             Dig(position + Vector2.up);
         }
-        if (canDown) {
+        if (canDown)
+        {
             Dig(position + Vector2.down);
         }
-        if (canLeft) {
+        if (canLeft)
+        {
             Dig(position + Vector2.left);
         }
-        if (canRight) {
+        if (canRight)
+        {
             Dig(position + Vector2.right);
         }
-        if (canUp && canRight) {
+        if (canUp && canRight)
+        {
             Dig(position + Vector2.right + Vector2.up);
         }
-        if (canUp && canLeft) {
+        if (canUp && canLeft)
+        {
             Dig(position + Vector2.left + Vector2.up);
         }
-        if (canDown && canRight) {
+        if (canDown && canRight)
+        {
             Dig(position + Vector2.right + Vector2.down);
         }
-        if (canDown && canLeft) {
+        if (canDown && canLeft)
+        {
             Dig(position + Vector2.left + Vector2.down);
         }
+    }
+
+    public void Exit()
+    {
+        animator.SetTrigger("FadeOut");
+
+    }
+
+    public void ExitComplete() 
+    {
+        SceneManager.LoadScene(0);
     }
 }
