@@ -3,16 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class Object : MonoBehaviour
+public class KeyObject : MonoBehaviour
 {
-    private DialogueManager logger;
+   private DialogueManager logger;
     [TextArea(3,10)]
     public bool dialogActive;
 
     public Dialogue dialogue;
     bool player = false;
     bool dia = false;
+    public string key = "NONO";
     
+    private bool MAINOBJECT = false;
     
    
     // Start is called before the first frame update
@@ -27,24 +29,10 @@ public class Object : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && player)
-        {
-            player = false;
-            dia = true;
-            TriggerDialogue();
-        }
-        else
-        if (Input.GetKeyDown(KeyCode.Space) && dia)
-        {
-            logger.DisplayNextSentence();
-            if(logger.boxOn() == false)
-            {
-                dia = false;
-                player = true;
-            }
-        }
         
-
+        if(Input.GetKeyDown(KeyCode.Space) && player){
+            SceneManager.LoadScene(1);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
