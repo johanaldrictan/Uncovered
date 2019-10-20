@@ -7,6 +7,9 @@ public class Cursor : MonoBehaviour
 {
 
     public Tilemap Layer1;
+    public Tilemap Layer2;
+    public Tilemap Layer3;
+    public Tilemap BottomLayer;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +45,20 @@ public class Cursor : MonoBehaviour
 
     public void Dig()
     {
-        //Vector3 currentcell = 
+        if (Layer3.GetTile(Layer3.WorldToCell(transform.position)) != null) {
+            Vector3Int currentcell = Layer3.WorldToCell(transform.position);
+            Layer3.SetTile(currentcell, null);
+        }
+        else if (Layer2.GetTile(Layer2.WorldToCell(transform.position)) != null) {
+            Vector3Int currentcell = Layer2.WorldToCell(transform.position);
+            Layer2.SetTile(currentcell, null);
+        }
+        else if (Layer1.GetTile(Layer1.WorldToCell(transform.position)) != null) {
+            Vector3Int currentcell = Layer1.WorldToCell(transform.position);
+            Layer1.SetTile(currentcell, null);
+        }
+        else {
+            Debug.Log("YEEEEEEEEEEEEEE");
+        }
     }
 }
