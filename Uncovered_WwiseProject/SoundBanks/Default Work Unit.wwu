@@ -22,7 +22,6 @@
 				</SoundBank>
 				<SoundBank Name="Player" ID="{33E6758C-B539-4519-B5F8-6E1B9F3B3A1E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_SFX_Coin" ID="{A37CD73E-5D12-487D-B486-B3E906F404BD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Walk" ID="{4738E7D5-B06A-4DC8-A8B4-A2815A59E628}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -32,6 +31,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_SFX_Excav_Found" ID="{9E160470-7907-4180-B5FF-DAD3098EAF6D}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Excav_Brush" ID="{F2680925-5663-46AA-80AD-A6EB133376DB}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Coin" ID="{A37CD73E-5D12-487D-B486-B3E906F404BD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Excav_Dig" ID="{CB4532F2-40C6-49F9-AC3B-2E69FDBBA9FD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Excav_Fail" ID="{CAB69335-02B1-4D3D-8FEA-807869413647}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

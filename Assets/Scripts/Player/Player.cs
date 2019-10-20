@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     {
         if(dialogueMan.boxOn() != true)//STOP CHRACTER FROM MOVING IF DIALOGUE IS HAPPENING
         {
-            /*
+            
             if (Input.GetAxisRaw("Horizontal") != 0)
             {
                 movement.x = Input.GetAxisRaw("Horizontal");
@@ -75,9 +75,7 @@ public class Player : MonoBehaviour
                 movement.y = 0;
                 movement.x = 0;
             }
-            */
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
+            
 
             animator.SetFloat("moveX", movement.x);
             animator.SetFloat("moveY", movement.y);
@@ -94,7 +92,6 @@ public class Player : MonoBehaviour
             else if (islandGround.GetTile(playerPosition2D).name.Contains("jungle") || islandGround.GetTile(playerPosition2D).name.Contains("dirt") || islandGround.GetTile(playerPosition2D).name.Contains("Dirt"))
             {
                 Debug.Log("Switch to Jungle");
-
                 if (grassTiles != null)
                 {
                     if (grassTiles.Contains(islandGround.GetTile(playerPosition2D).name))
@@ -107,7 +104,6 @@ public class Player : MonoBehaviour
             else if (islandGround.GetTile(playerPosition2D).name.Contains("ashlands"))
             {
                 Debug.Log("Switch to Gravel");
-
                 AkSoundEngine.SetSwitch("Material", "Gravel", gameObject);
             }
         }
