@@ -12,6 +12,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    private PosSave posser;
+
+
     public Grid grid;
     public Tilemap islandGround;
 
@@ -26,6 +29,9 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        transform.position = posser.getPos();
+
         playerPosition2D = grid.WorldToCell(transform.position);
         grassTiles = new List<string>();
         grassTiles.Add("tf_jungle_tileset_31");
@@ -44,6 +50,7 @@ public class Player : MonoBehaviour
     {
         dialogueMan = DialogueManager.FindObjectOfType<DialogueManager>();
         itemMan = ItemManager.FindObjectOfType<ItemManager>();
+        posser = PosSave.FindObjectOfType<PosSave>();
     }
     // Update is called once per frame
     void Update()

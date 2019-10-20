@@ -72,8 +72,21 @@ public class Cursor : MonoBehaviour
             ProgressBar.fillAmount = (float)hits / 50;
             if (finds >= find_limit)
             {
-                Debug.Log("You Win!");
-                StartCoroutine(PlayFound());
+                    Debug.Log("You Win!");
+                    StartCoroutine(PlayFound());
+
+                    if (SceneManager.GetActiveScene().name == "Dig 1") {
+                        Global.item1found = true;
+                    } else if (SceneManager.GetActiveScene().name == "Dig 2") {
+                        Global.item2found = true;
+                    } else if (SceneManager.GetActiveScene().name == "Dig 3") {
+                        /*
+
+                        ADD ENDING SCENEN IF POSSIBLE HEREHR
+
+
+                         */
+                       }
                 Exit();
             }
         }
@@ -160,7 +173,7 @@ public class Cursor : MonoBehaviour
 
     }
 
-    public void ExitComplete() 
+    public void ExitComplete()
     {
         SceneManager.LoadScene(0);
     }
