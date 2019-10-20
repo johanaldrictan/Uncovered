@@ -25,7 +25,6 @@ public class DialogueManager : MonoBehaviour
         {
             sentent.Enqueue(sentence);
         }
-
         DisplayNextSentence();
     }
 

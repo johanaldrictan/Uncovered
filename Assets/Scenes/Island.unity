@@ -961,6 +961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4c811a3e9eb7b841942542579b023a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  logger: {fileID: 741221320}
   dialogBox: {fileID: 2099443520}
   dialogText: {fileID: 64364259}
   dialogActive: 0
