@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
         grassTiles.Add("tf_jungle_tileset_47");
         grassTiles.Add("tf_jungle_tileset_48");
         grassTiles.Add("tf_jungle_tileset_49");
+        grassTiles.Add("Random Grass");
 
     }
 
@@ -82,22 +83,33 @@ public class Player : MonoBehaviour
             animator.SetFloat("moveY", movement.y);
         }
         playerPosition2D = grid.WorldToCell(transform.position);
-        if (islandGround.GetTile(playerPosition2D).name.Contains("beach") || islandGround.GetTile(playerPosition2D).name.Contains("sand") || islandGround.GetTile(playerPosition2D).name.Contains("Sand"))
+        if (islandGround.GetTile(playerPosition2D) != null)
         {
-            AkSoundEngine.SetSwitch("Material", "Sand", gameObject);
-        }
-        else if (islandGround.GetTile(playerPosition2D).name.Contains("jungle") || islandGround.GetTile(playerPosition2D).name.Contains("dirt") || islandGround.GetTile(playerPosition2D).name.Contains("Dirt"))
-        {
-            Debug.Log(islandGround.GetTile(playerPosition2D).name);
-            if(grassTiles.Contains(islandGround.GetTile(playerPosition2D).name))
-                AkSoundEngine.SetSwitch("Material", "Grass", gameObject);
-            else
-                AkSoundEngine.SetSwitch("Material", "Dirt", gameObject);
-            
-        }
-        else if (islandGround.GetTile(playerPosition2D).name.Contains("ashlands"))
-        {
-            AkSoundEngine.SetSwitch("Material", "Gravel", gameObject);
+            //Debug.Log(islandGround.GetTile(playerPosition2D).name);
+            if (islandGround.GetTile(playerPosition2D).name.Contains("beach") || islandGround.GetTile(playerPosition2D).name.Contains("sand") || islandGround.GetTile(playerPosition2D).name.Contains("Sand"))
+            {
+                Debug.Log("Switch to Sand");
+                AkSoundEngine.SetSwitch("Material", "Sand", gameObject);
+            }
+            else if (islandGround.GetTile(playerPosition2D).name.Contains("jungle") || islandGround.GetTile(playerPosition2D).name.Contains("dirt") || islandGround.GetTile(playerPosition2D).name.Contains("Dirt"))
+            {
+                Debug.Log("Switch to Jungle");
+
+                if (grassTiles != null)
+                {
+                    if (grassTiles.Contains(islandGround.GetTile(playerPosition2D).name))
+                        AkSoundEngine.SetSwitch("Material", "Grass", gameObject);
+                    else
+                        AkSoundEngine.SetSwitch("Material", "Dirt", gameObject);
+                }
+
+            }
+            else if (islandGround.GetTile(playerPosition2D).name.Contains("ashlands"))
+            {
+                Debug.Log("Switch to Gravel");
+
+                AkSoundEngine.SetSwitch("Material", "Gravel", gameObject);
+            }
         }
 
     }
