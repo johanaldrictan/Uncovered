@@ -68,6 +68,7 @@ public class Cursor : MonoBehaviour
             Vector3Int currentcell = Layer1.WorldToCell(position);
             Layer1.SetTile(currentcell, null);
         }
+        //Transform bar = transform.Find("")
     }
 
     public void BigDig(Vector2 position)
