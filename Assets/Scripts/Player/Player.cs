@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     private ItemManager itemMan;
     private Rigidbody2D rb;
     private Vector2 movement;
-
+    private PosSave posser;
     public float walkSpeed = 10f;
     private Animator animator;
 
@@ -19,12 +19,14 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        transform.position = posser.getPos();
     }
 
     void Awake()
     {
         dialogueMan = DialogueManager.FindObjectOfType<DialogueManager>();
         itemMan = ItemManager.FindObjectOfType<ItemManager>();
+        posser = PosSave.FindObjectOfType<PosSave>();
     }
     // Update is called once per frame
     void Update()

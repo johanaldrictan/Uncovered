@@ -43,7 +43,6 @@ public class KeyObject2 : MonoBehaviour
         if(other.CompareTag("Player"))
         {
         player = true;
-        iMan.found2ON();
         Debug.Log(other.GetType());
         Debug.Log("WORKS");
         }

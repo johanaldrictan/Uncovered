@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class KeyObject1 : MonoBehaviour
+public class KeyObject3 : MonoBehaviour
 {
    private DialogueManager logger;
    private ItemManager iMan;
@@ -35,7 +35,7 @@ public class KeyObject1 : MonoBehaviour
         
         if(Input.GetKeyDown(KeyCode.Space) && player){
             DontDestroyOnLoad(positioner);
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(3);
         }
     }
 
