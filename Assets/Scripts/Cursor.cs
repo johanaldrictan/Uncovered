@@ -10,9 +10,12 @@ public class Cursor : MonoBehaviour
     public Tilemap Layer1;
     public Tilemap Layer2;
     public Tilemap Layer3;
+    public Tilemap ItemLayer;
     public Tilemap BottomLayer;
 
-    public int hits;
+    private int hits;
+    private int finds;
+    public int find_limit;
 
     private GameObject ButtonScriptObject;
 
@@ -22,6 +25,7 @@ public class Cursor : MonoBehaviour
     void Start()
     {
         hits = 0;
+        finds = 0;
         ButtonScriptObject = GameObject.Find("Button Script");
     }
 
@@ -50,6 +54,9 @@ public class Cursor : MonoBehaviour
                 Dig(transform.position);
             }
             ProgressBar.fillAmount = (float) hits / 50;
+            if(finds >= find_limit) {
+                Debug.Log("You Win!");
+            }
         }
 
 
@@ -74,6 +81,10 @@ public class Cursor : MonoBehaviour
         else if (Layer1.GetTile(Layer1.WorldToCell(position)) != null) {
             Vector3Int currentcell = Layer1.WorldToCell(position);
             Layer1.SetTile(currentcell, null);
+            if (ItemLayer.GetTile(ItemLayer.WorldToCell(position)) != null) {
+                Debug.Log("Found Something");
+                finds++;
+            }
         }
     }
 
