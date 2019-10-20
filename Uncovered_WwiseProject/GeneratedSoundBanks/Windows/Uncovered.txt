@@ -1,0 +1,75 @@
+Event	ID	Name			Wwise Object Path	Notes
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	1251254653	Play_SFX_Amb_Secret			\Default Work Unit\Play_SFX_Amb_Secret	
+	1395785617	Play_SFX_Amb_Seagulls			\Default Work Unit\Play_SFX_Amb_Seagulls	
+	1492024762	Stop_MUS_Overworld			\Default Work Unit\Stop_MUS_Overworld	
+	1570490760	Play_SFX_Excav_Found			\Default Work Unit\Play_SFX_Excav_Found	
+	1701975916	Play_SFX_Excav_Brush			\Default Work Unit\Play_SFX_Excav_Brush	
+	3121859900	Play_SFX_Excav_Dig			\Default Work Unit\Play_SFX_Excav_Dig	
+	3409418128	Play_SFX_Ocean			\Default Work Unit\Play_SFX_Ocean	
+	3621165624	Play_MUS_Overworld			\Default Work Unit\Play_MUS_Overworld	
+	3833599577	Play_SFX_Coin			\Default Work Unit\Play_SFX_Coin	
+	3902146761	Play_SFX_Walk			\Default Work Unit\Play_SFX_Walk	
+	4274094232	Play_SFX_Excav_Fail			\Default Work Unit\Play_SFX_Excav_Fail	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	Material			
+	2058049674	Wood	Material			
+	2185786256	Gravel	Material			
+	2195636714	Dirt	Material			
+	4248645337	Grass	Material			
+
+Modulator Time	ID	Name			Wwise Object Path	Notes
+	772463187	Secret_Time_Mod			\Default Work Unit\Secret_Time_Mod	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3216246379	Space_Dreaming	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	27833856	Sand_Walk2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk2		78092
+	43826471	Dirt_Walk2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dirt_Walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Dirt\Dirt_Walk2		57616
+	48977136	Wood_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Wood_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Wood\Wood_Walk3		189916
+	61935095	Brush6	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush6		265516
+	81253111	Dig5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dig5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig5		95416
+	92733396	Brush4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush4		133216
+	129270777	Dig2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dig2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig2		95416
+	131420478	Gravel_Walk5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk5		76516
+	140393224	SidewalkAmbience	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SidewalkAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Secret\SidewalkAmbience		2422480
+	207061055	ExcavationFound	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\ExcavationFound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ExcavationFound		163140
+	221023120	Sand_Walk1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk1		77304
+	282696491	Wood_Walk1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Wood_Walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Wood\Wood_Walk1		204092
+	296835804	Brush5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush5		189916
+	347400003	Brush2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush2		143452
+	369913505	Dig1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dig1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig1		95416
+	379701067	Wood_Walk2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Wood_Walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Wood\Wood_Walk2		213540
+	412740056	Dig4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dig4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig4		95416
+	419470561	Gravel_Walk4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk4		76516
+	500237650	Gravel_Walk7	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk7		76516
+	528425118	SeagullsAmbience	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SeagullsAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Seagulls\SeagullsAmbience		1316700
+	530410544	SeagullsAmbience3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SeagullsAmbience3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Seagulls\SeagullsAmbience3		1316700
+	581909238	Grass_Walk2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Grass_Walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Grass\Grass_Walk2		83604
+	586218598	Gravel_Walk1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk1		80452
+	598303621	Brush3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush3		152116
+	598451868	Dirt_Walk4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dirt_Walk4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Dirt\Dirt_Walk4		76516
+	637795579	OceanWaves	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\OceanWaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\OceanWaves		1212092
+	722675397	Brush1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Brush1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush1		123100
+	756095550	Gravel_Walk6	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk6		76516
+	757806272	SPR_NightTheme	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SPR_NightTheme_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SPR_NightTheme		3397296
+	793283419	Dig3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dig3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig3		95416
+	805482936	Sand_Walk4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk4		78092
+	822688209	Dirt_Walk1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dirt_Walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Dirt\Dirt_Walk1		57616
+	837896875	Gravel_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk3		76516
+	852794906	ExcavationFail	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\ExcavationFail_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ExcavationFail		757704
+	873785404	Coin	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin		154480
+	885252225	Sand_Walk5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk5		78880
+	893903728	Grass_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Grass_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Grass\Grass_Walk3		80452
+	935191662	Gravel_Walk2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Gravel_Walk2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Gravel\Gravel_Walk2		76516
+	1020324169	Sand_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Sand_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Sand\Sand_Walk3		78092
+	1028420687	SeagullsAmbience2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SeagullsAmbience2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Seagulls\SeagullsAmbience2		1316700
+	1031546754	Grass_Walk1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Grass_Walk1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Grass\Grass_Walk1		85964
+	1032765659	PlaygroundAmbience	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\PlaygroundAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Secret\PlaygroundAmbience		2422480
+	1036905927	Dirt_Walk3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\Dirt_Walk3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Walk\SFX_Overworld_Walk_Dirt\Dirt_Walk3		76516
+

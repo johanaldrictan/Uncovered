@@ -12,14 +12,272 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6821b68e36a533749bbdfc0c7446bf41, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 5dcda344d7abd047b381c617bb582340
+    GuidInternal: 
+    m_lastTime: -8586300685843488310
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 15c5406783ea784d9b54f21188342276
+    GuidInternal: 
+    m_lastTime: -8586300685845653651
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: ead88167db766c48aefb5478d54cb3df
+    GuidInternal: 
+    m_lastTime: -8586300316664783872
+    List:
+    - name: Master
+      guid: 1fa7c0af005f5a48a8da25ef6cbaa1e6
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master
+        ObjectType: 7
+      Path: Default Work Unit\Master
+    - name: Uncovered
+      guid: b87b1bc04bf1724c85d72e985d41a4a8
+      id: 2407602878
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Uncovered
+        ObjectType: 7
+      Path: Default Work Unit\Uncovered
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c83ee8ae5dac594cb617b134dd66efe7
+    GuidInternal: 
+    m_lastTime: -8586300316664843707
+    List:
+    - name: Play_MUS_Overworld
+      guid: d6099d4af6304341bf5e114d9b046be4
+      id: 3621165624
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_MUS_Overworld
+        ObjectType: 3
+      Path: Default Work Unit\Play_MUS_Overworld
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_Amb_Seagulls
+      guid: 7c7e0b3f69396549a2b898cf5cb8d416
+      id: 1395785617
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Amb_Seagulls
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Amb_Seagulls
+      maxAttenuation: 0
+      maxDuration: 7.922422
+      minDuration: 5.935111
+    - name: Play_SFX_Amb_Secret
+      guid: b8717032c10ddc4ab92acee8c5b93781
+      id: 1251254653
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Amb_Secret
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Amb_Secret
+      maxAttenuation: 0
+      maxDuration: 15.865481
+      minDuration: 11.885681
+    - name: Play_SFX_Coin
+      guid: 3ed77ca3125d7d48b486b3e906f404bd
+      id: 3833599577
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Coin
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Coin
+      maxAttenuation: 0
+      maxDuration: 1.010947
+      minDuration: 0.757354
+    - name: Play_SFX_Excav_Brush
+      guid: 250968f26356aa4680ada6eb133376db
+      id: 1701975916
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Excav_Brush
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Excav_Brush
+      maxAttenuation: 0
+      maxDuration: 1.73819
+      minDuration: 0.603383
+    - name: Play_SFX_Excav_Dig
+      guid: f23245cbc640f949ac3b2e69fdbba9fd
+      id: 3121859900
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Excav_Dig
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Excav_Dig
+      maxAttenuation: 0
+      maxDuration: 0.6241
+      minDuration: 0.467547
+    - name: Play_SFX_Excav_Fail
+      guid: 3593b6cab1023d4d8fea807869413647
+      id: 4274094232
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Excav_Fail
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Excav_Fail
+      maxAttenuation: 0
+      maxDuration: 4.961834
+      minDuration: 3.717175
+    - name: Play_SFX_Excav_Found
+      guid: 7004169e07798041b5ffdad3098eaf6d
+      id: 1570490760
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Excav_Found
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Excav_Found
+      maxAttenuation: 0
+      maxDuration: 0.924104
+      minDuration: 0.924104
+    - name: Play_SFX_Ocean
+      guid: 15250ff699b8fd4f87d711fb53118196
+      id: 3409418128
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Ocean
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Ocean
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_SFX_Walk
+      guid: d5e738476ab0c84da8b4a2815a59e628
+      id: 3902146761
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SFX_Walk
+        ObjectType: 3
+      Path: Default Work Unit\Play_SFX_Walk
+      maxAttenuation: 0
+      maxDuration: 1.397767
+      minDuration: 0.282075
+    - name: Stop_All
+      guid: bf04399419936c4a9a8532602ea50f04
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_All
+        ObjectType: 3
+      Path: Default Work Unit\Stop_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_MUS_Overworld
+      guid: 2a75f9433eb7604cb7fa44a3012ef409
+      id: 1492024762
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_MUS_Overworld
+        ObjectType: 3
+      Path: Default Work Unit\Stop_MUS_Overworld
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 46297d46d4aeca44b256c30e64e266ae
+    GuidInternal: 
+    m_lastTime: -8586300685845693138
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d9bffc400eb268499ce50896445077d1
+    GuidInternal: 
+    m_lastTime: -8586300685843556354
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e24e9dc8461a344589b9dc746a0f61ca
+    GuidInternal: 
+    m_lastTime: -8586300347550828972
+    List:
+    - name: Material
+      guid: 7ee26a0dbe6a53419bb31b4c567d2248
+      id: 3865314626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Material
+        ObjectType: 11
+      Path: Default Work Unit\Material
+      values:
+      - name: Dirt
+        guid: 244327772c2c414bb02598b4edf783f7
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Dirt
+          ObjectType: 10
+      - name: Grass
+        guid: 6728d2d0a68c9549adfe41815ea56061
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      - name: Gravel
+        guid: fd90e37b8bbef4458e05e273a873dde7
+        id: 2185786256
+        PathAndIcons:
+        - ElementName: Gravel
+          ObjectType: 10
+      - name: Sand
+        guid: 6267c11da4e3264b8d7a6d7d38c7e0ca
+        id: 803837735
+        PathAndIcons:
+        - ElementName: Sand
+          ObjectType: 10
+      - name: Wood
+        guid: 4b50c3d890ccec4f98de014d52835977
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Wood
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 6592532cbdff844c8bd920dae27488a8
+    GuidInternal: 
+    m_lastTime: -8586300685843498282
+    List: []
+  ExpandedItems:
+  - /Uncovered_WwiseProject
+  - /Uncovered_WwiseProject/Events
+  - /Uncovered_WwiseProject/Events/Default Work Unit
+  - /Uncovered_WwiseProject/SoundBanks
+  - /Uncovered_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

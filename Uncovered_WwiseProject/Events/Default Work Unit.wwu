@@ -1,6 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_SFX_Excav_Brush" ID="{F2680925-5663-46AA-80AD-A6EB133376DB}">
+					<ChildrenList>
+						<Action Name="" ID="{F37D5AD8-3BA9-4386-8D21-11770D17C1AB}" ShortID="430115361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Excav_Brush" ID="{65762D47-6B97-4A89-B5CB-64D8F9683CCE}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Excav_Dig" ID="{CB4532F2-40C6-49F9-AC3B-2E69FDBBA9FD}">
+					<ChildrenList>
+						<Action Name="" ID="{E5AF2974-6517-4C5D-AA07-15A87B6181B3}" ShortID="464172954">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Excav_Shovel" ID="{CA5377DB-8DA9-4D79-ADA8-B1CECD0A9885}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Walk" ID="{4738E7D5-B06A-4DC8-A8B4-A2815A59E628}">
+					<ChildrenList>
+						<Action Name="" ID="{ABE928FC-5CD4-4703-9923-C9B908A6CE20}" ShortID="396135921">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Overworld_Walk" ID="{2E1CF884-1A75-4007-ADAB-27AA56D2B1AD}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Amb_Seagulls" ID="{3F0B7E7C-3969-4965-A2B8-98CF5CB8D416}">
+					<ChildrenList>
+						<Action Name="" ID="{FD852449-2926-49BD-85F9-D5CADA54FBAA}" ShortID="671198192">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Overworld_Amb_Seagulls" ID="{90CAE152-83BE-4D81-8A28-A45E9541678A}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Amb_Secret" ID="{327071B8-0DC1-4ADC-B92A-CEE8C5B93781}">
+					<ChildrenList>
+						<Action Name="" ID="{75284E0B-4442-4C32-B28E-F9A4F85E5A1F}" ShortID="124307650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Overworld_Amb_Secret" ID="{766BD57D-21DD-44FC-8015-D229ACF91EA6}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Coin" ID="{A37CD73E-5D12-487D-B486-B3E906F404BD}">
+					<ChildrenList>
+						<Action Name="" ID="{4AE1E611-E931-41E9-ABF7-8B646BD75D76}" ShortID="477872061">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Coin" ID="{58E63640-7584-4B24-A7BC-7869C290046F}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Excav_Fail" ID="{CAB69335-02B1-4D3D-8FEA-807869413647}">
+					<ChildrenList>
+						<Action Name="" ID="{84117350-80DB-4F4D-A749-0E3133BC49A9}" ShortID="624524437">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ExcavationFail" ID="{136478F6-EB5F-4869-A1D2-D7790C9E098F}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Excav_Found" ID="{9E160470-7907-4180-B5FF-DAD3098EAF6D}">
+					<ChildrenList>
+						<Action Name="" ID="{11A2E293-EFB5-465F-BFAB-5674A6321594}" ShortID="33017127">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ExcavationFound" ID="{5407FF7F-F4F9-4760-89F6-21F6FB6D03E8}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Ocean" ID="{F60F2515-B899-4FFD-87D7-11FB53118196}">
+					<ChildrenList>
+						<Action Name="" ID="{39E0A20A-6A25-48FC-B3DA-A650F1E3161C}" ShortID="44375259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OceanWaves" ID="{244FD146-B249-46EC-AD62-6612803DDFAB}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MUS_Overworld" ID="{4A9D09D6-30F6-4143-BF5E-114D9B046BE4}">
+					<ChildrenList>
+						<Action Name="" ID="{B958011C-C00F-4A0C-98AE-183CB6D2C34E}" ShortID="88404423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SPR_NightTheme" ID="{E5CF62A3-FDC5-41CF-8C1B-6C12F4D63E04}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MUS_Overworld" ID="{43F9752A-B73E-4C60-B7FA-44A3012EF409}">
+					<ChildrenList>
+						<Action Name="" ID="{D3A0598C-201B-4521-A8A5-2E338D00B463}" ShortID="420595605">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SPR_NightTheme" ID="{E5CF62A3-FDC5-41CF-8C1B-6C12F4D63E04}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{943904BF-9319-4A6C-9A85-32602EA50F04}">
+					<ChildrenList>
+						<Action Name="" ID="{FAF063BD-538A-4E37-BDFC-5618A059BB6F}" ShortID="956727328">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
