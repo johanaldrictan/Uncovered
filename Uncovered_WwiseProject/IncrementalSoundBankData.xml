@@ -3,27 +3,31 @@
 	<Platform GUID="{A41D9ABF-F7E8-433C-8483-22538A4C784B}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Excavation" Hash="4055745984" Timestamp="1571607646"/>
 				<File Name="Init" Hash="2647710745" Timestamp="1571575153"/>
 				<File Name="Master" Hash="3212954879" Timestamp="1571574694"/>
-				<File Name="Uncovered" Hash="3590839289" Timestamp="1571575153"/>
+				<File Name="Player" Hash="851552972" Timestamp="1571607625"/>
+				<File Name="Uncovered" Hash="3260559070" Timestamp="1571604894"/>
+				<File Name="World" Hash="221793268" Timestamp="1571607624"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="336755246" Timestamp="1571575153"/>
+				<File Name="" Hash="1236881659" Timestamp="1571607646"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{554B385E-B73F-44BD-893B-E7F82D476FA3}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2279659568" Timestamp="1571574670"/>
+				<File Name="Init" Hash="399428863" Timestamp="1571607919"/>
 				<File Name="Master" Hash="3212954879" Timestamp="1571574670"/>
+				<File Name="World" Hash="221793268" Timestamp="1571607919"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="628425694" Timestamp="1571574670"/>
+				<File Name="" Hash="1087800377" Timestamp="1571607919"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

@@ -8,20 +8,32 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Uncovered" ID="{C01B7BB8-F14B-4C72-85D7-2E985D41A4A8}">
+				<SoundBank Name="World" ID="{C01B7BB8-F14B-4C72-85D7-2E985D41A4A8}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_MUS_Overworld" ID="{4A9D09D6-30F6-4143-BF5E-114D9B046BE4}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Excav_Found" ID="{9E160470-7907-4180-B5FF-DAD3098EAF6D}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Excav_Brush" ID="{F2680925-5663-46AA-80AD-A6EB133376DB}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Coin" ID="{A37CD73E-5D12-487D-B486-B3E906F404BD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Amb_Seagulls" ID="{3F0B7E7C-3969-4965-A2B8-98CF5CB8D416}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Excav_Dig" ID="{CB4532F2-40C6-49F9-AC3B-2E69FDBBA9FD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_All" ID="{943904BF-9319-4A6C-9A85-32602EA50F04}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Amb_Secret" ID="{327071B8-0DC1-4ADC-B92A-CEE8C5B93781}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_MUS_Overworld" ID="{43F9752A-B73E-4C60-B7FA-44A3012EF409}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Excav_Fail" ID="{CAB69335-02B1-4D3D-8FEA-807869413647}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_SFX_Walk" ID="{4738E7D5-B06A-4DC8-A8B4-A2815A59E628}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_SFX_Ocean" ID="{F60F2515-B899-4FFD-87D7-11FB53118196}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player" ID="{33E6758C-B539-4519-B5F8-6E1B9F3B3A1E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Coin" ID="{A37CD73E-5D12-487D-B486-B3E906F404BD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Walk" ID="{4738E7D5-B06A-4DC8-A8B4-A2815A59E628}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Excavation" ID="{E940A87E-65C6-4E3B-87B8-454007664F37}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Excav_Found" ID="{9E160470-7907-4180-B5FF-DAD3098EAF6D}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Excav_Brush" ID="{F2680925-5663-46AA-80AD-A6EB133376DB}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Excav_Dig" ID="{CB4532F2-40C6-49F9-AC3B-2E69FDBBA9FD}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SFX_Excav_Fail" ID="{CAB69335-02B1-4D3D-8FEA-807869413647}" WorkUnitID="{AEE83EC8-AC5D-4C59-B617-B134DD66EFE7}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

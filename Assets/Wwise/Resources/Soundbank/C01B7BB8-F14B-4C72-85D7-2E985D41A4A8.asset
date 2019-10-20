@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d17078fe0db58614784cebba4b5f01bc, type: 3}
   m_Name: C01B7BB8-F14B-4C72-85D7-2E985D41A4A8
   m_EditorClassIdentifier: 
-  objectName: Uncovered
-  id: 2407602878
+  objectName: World
+  id: 2609808943
   guid: C01B7BB8-F14B-4C72-85D7-2E985D41A4A8
