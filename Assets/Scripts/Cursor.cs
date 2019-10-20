@@ -152,6 +152,11 @@ public class Cursor : MonoBehaviour
     public void Exit()
     {
         animator.SetTrigger("FadeOut");
+
+    }
+
+    public void ExitComplete() 
+    {
         SceneManager.LoadScene(0);
     }
 }
