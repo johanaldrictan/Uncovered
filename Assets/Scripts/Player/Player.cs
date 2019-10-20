@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     private DialogueManager dialogueMan;
+    private ItemManager itemMan;
     private Rigidbody2D rb;
     private Vector2 movement;
 
@@ -23,6 +24,8 @@ public class Player : MonoBehaviour
     void Awake()
     {
         dialogueMan = DialogueManager.FindObjectOfType<DialogueManager>();
+        itemMan = ItemManager.FindObjectOfType<ItemManager>();
+        DontDestroyOnLoad(this);
     }
     // Update is called once per frame
     void Update()
