@@ -25,7 +25,6 @@ public class Player : MonoBehaviour
     {
         dialogueMan = DialogueManager.FindObjectOfType<DialogueManager>();
         itemMan = ItemManager.FindObjectOfType<ItemManager>();
-        DontDestroyOnLoad(this);
     }
     // Update is called once per frame
     void Update()

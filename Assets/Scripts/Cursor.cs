@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Cursor : MonoBehaviour
 {
@@ -151,5 +152,6 @@ public class Cursor : MonoBehaviour
     public void Exit()
     {
         animator.SetTrigger("FadeOut");
+        SceneManager.LoadScene(0);
     }
 }
