@@ -33,7 +33,7 @@ public class KeyObject2 : MonoBehaviour
     {
         
         if(Input.GetKeyDown(KeyCode.Space) && player){
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
             
         }
     }

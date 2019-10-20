@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-public class KeyObject : MonoBehaviour
+public class KeyObject1 : MonoBehaviour
 {
    private DialogueManager logger;
    private ItemManager iMan;
@@ -42,6 +42,7 @@ public class KeyObject : MonoBehaviour
         if(other.CompareTag("Player"))
         {
         player = true;
+        iMan.found1ON();
         Debug.Log(other.GetType());
         Debug.Log("WORKS");
         }

@@ -6,8 +6,8 @@ public class ItemManager : MonoBehaviour
 {
     private bool item1Found;
     private bool item2Found;
-    public Animator found1;
-    public Animator found2;
+    public GameObject img1;
+    public GameObject img2;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,11 +20,11 @@ public class ItemManager : MonoBehaviour
     {
         if(item1Found == true)
         {
-            found1.SetBool("Found1", true);
+            Destroy(img1);
         }
         if(item2Found == true)
         {
-            found2.SetBool("Found2", true);
+            Destroy(img2);
         }
     }
 

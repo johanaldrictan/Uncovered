@@ -429,7 +429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -226.2, y: 109}
+  m_AnchoredPosition: {x: -151.7, y: 109}
   m_SizeDelta: {x: 40.5, y: 40.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &243222851
@@ -761,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -286, y: 109}
+  m_AnchoredPosition: {x: -213.1, y: 108.2}
   m_SizeDelta: {x: 40.5, y: 40.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &927813512
@@ -1041,7 +1041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -226.2, y: 109}
+  m_AnchoredPosition: {x: -151.7, y: 109}
   m_SizeDelta: {x: 40.5, y: 40.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1181484442
@@ -1463,7 +1463,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -286, y: 109}
+  m_AnchoredPosition: {x: -213.9, y: 108.2}
   m_SizeDelta: {x: 40.5, y: 40.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1857035699
@@ -1947,17 +1947,17 @@ PrefabInstance:
     - target: {fileID: 8040718923038922845, guid: 7afca6c2d5b032947bf217bb027b53dc,
         type: 3}
       propertyPath: m_Name
-      value: KeyObject
+      value: KeyObject1
       objectReference: {fileID: 0}
     - target: {fileID: 8040718923038922843, guid: 7afca6c2d5b032947bf217bb027b53dc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.89
+      value: -4.44
       objectReference: {fileID: 0}
     - target: {fileID: 8040718923038922843, guid: 7afca6c2d5b032947bf217bb027b53dc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.41
+      value: 3.11
       objectReference: {fileID: 0}
     - target: {fileID: 8040718923038922843, guid: 7afca6c2d5b032947bf217bb027b53dc,
         type: 3}
