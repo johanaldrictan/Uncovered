@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
         
     }
 
+        public Animator animator;
     // Update is called once per frame
     void Update()
     {
@@ -33,7 +34,8 @@ public class Player : MonoBehaviour
         {
             moveX = +1f;
         }
-
+        animator.SetFloat("moveX", moveX);
+        animator.SetFloat("moveY",moveY);
         Vector3 moveDir = new Vector3(moveX, moveY).normalized;
         transform.position += moveDir * speed * Time.deltaTime;
     }

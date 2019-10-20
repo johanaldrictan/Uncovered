@@ -1,7 +1,145 @@
 fileFormatVersion: 2
 guid: a66b462712ec5fa4da9a01ebbe38a146
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8728564806618513936
+    second: bard_PlayerCharacter_0
+  - first:
+      213: 595620331577206827
+    second: bard_PlayerCharacter_1
+  - first:
+      213: 2155599427763769729
+    second: bard_PlayerCharacter_2
+  - first:
+      213: -551675454114486936
+    second: bard_PlayerCharacter_3
+  - first:
+      213: 7368951267141625123
+    second: bard_PlayerCharacter_4
+  - first:
+      213: 5998190871525679714
+    second: bard_PlayerCharacter_5
+  - first:
+      213: 7555785794285550480
+    second: bard_PlayerCharacter_6
+  - first:
+      213: 1298129618700898180
+    second: bard_PlayerCharacter_7
+  - first:
+      213: -5062057958862757648
+    second: bard_PlayerCharacter_8
+  - first:
+      213: 4104044979875225951
+    second: bard_PlayerCharacter_9
+  - first:
+      213: -5254950104091513503
+    second: bard_PlayerCharacter_10
+  - first:
+      213: -2555773819371299210
+    second: bard_PlayerCharacter_11
+  - first:
+      213: 4508568384189738136
+    second: bard_PlayerCharacter_12
+  - first:
+      213: -3802575508865396814
+    second: bard_PlayerCharacter_13
+  - first:
+      213: 8101038708591045947
+    second: bard_PlayerCharacter_14
+  - first:
+      213: 6617358896178157161
+    second: bard_PlayerCharacter_15
+  - first:
+      213: 8245132469943990319
+    second: bard_PlayerCharacter_16
+  - first:
+      213: -7986388051871776426
+    second: bard_PlayerCharacter_17
+  - first:
+      213: 968661511846996131
+    second: bard_PlayerCharacter_18
+  - first:
+      213: 8089076268708131969
+    second: bard_PlayerCharacter_19
+  - first:
+      213: -9016603891803540992
+    second: bard_PlayerCharacter_20
+  - first:
+      213: 5938957788710039154
+    second: bard_PlayerCharacter_21
+  - first:
+      213: -1927455495868335837
+    second: bard_PlayerCharacter_22
+  - first:
+      213: -955143510338761022
+    second: bard_PlayerCharacter_23
+  - first:
+      213: 3657317861545505882
+    second: bard_PlayerCharacter_24
+  - first:
+      213: -3833409422372972997
+    second: bard_PlayerCharacter_25
+  - first:
+      213: 8960691645239154698
+    second: bard_PlayerCharacter_26
+  - first:
+      213: -8490328989625246283
+    second: bard_PlayerCharacter_27
+  - first:
+      213: -5356012539866579718
+    second: bard_PlayerCharacter_28
+  - first:
+      213: -3361358353810675357
+    second: bard_PlayerCharacter_29
+  - first:
+      213: -1955765154267315609
+    second: bard_PlayerCharacter_30
+  - first:
+      213: 1999025426656755694
+    second: bard_PlayerCharacter_31
+  - first:
+      213: 9015244391264884555
+    second: bard_PlayerCharacter_32
+  - first:
+      213: -5309150105427993931
+    second: bard_PlayerCharacter_33
+  - first:
+      213: 788969370190482777
+    second: bard_PlayerCharacter_34
+  - first:
+      213: 8688177547943679885
+    second: bard_PlayerCharacter_35
+  - first:
+      213: 3619257808369597480
+    second: bard_PlayerCharacter_36
+  - first:
+      213: 4915109483399825103
+    second: bard_PlayerCharacter_37
+  - first:
+      213: 8737543276286422441
+    second: bard_PlayerCharacter_38
+  - first:
+      213: -6365677523596799632
+    second: bard_PlayerCharacter_39
+  - first:
+      213: 1395559082473300635
+    second: bard_PlayerCharacter_40
+  - first:
+      213: -7125178509640073489
+    second: bard_PlayerCharacter_41
+  - first:
+      213: -2182446524226002828
+    second: bard_PlayerCharacter_42
+  - first:
+      213: 4503732029092752433
+    second: bard_PlayerCharacter_43
+  - first:
+      213: -3081368607559015992
+    second: bard_PlayerCharacter_44
+  - first:
+      213: -4121454923196796022
+    second: bard_PlayerCharacter_45
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,12 +178,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,9 +208,1023 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358260a609d190c4cad9afc23b0cf457
+      internalID: 8728564806618513936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7282d8e5ab626e046b253884f70b6b19
+      internalID: 595620331577206827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3807f3c6e699daa4cb4c2ea7d132562f
+      internalID: 2155599427763769729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c687bd6478c513848867041f36b64338
+      internalID: -551675454114486936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9651ca191a38f214eacdc75d330c185b
+      internalID: 7368951267141625123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c68fa93c316d141a277b2d6ef593a0
+      internalID: 5998190871525679714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949924d86d4fb034cb7c62bc26f1b76b
+      internalID: 7555785794285550480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8790ce9cc4ffae54980a4323d47eca1d
+      internalID: 1298129618700898180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f66c073a0ba646846fc120e3f8679
+      internalID: -5062057958862757648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 251
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193f74804e717734a99df44979f35a3f
+      internalID: 4104044979875225951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc0f3bb2a1c17d45902c1fe37812b3d
+      internalID: -5254950104091513503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4789d880c55e7764dac896f07541c353
+      internalID: -2555773819371299210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05f3c89214e1d74ea2336c06b3dce6f
+      internalID: 4508568384189738136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d784924520e9974083ba152853255a5
+      internalID: -3802575508865396814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_14
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea1d3eaa8182804a9bc57763e738ba2
+      internalID: 8101038708591045947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27adbba9e4d5e6540bd8a2bcf301fb2c
+      internalID: 6617358896178157161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457d076ce77287941be5bea60b58cdf3
+      internalID: 8245132469943990319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf96363431febb54e8a8edb5a31c6398
+      internalID: -7986388051871776426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce99275629db82d46b9a029fb91a201a
+      internalID: 968661511846996131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 214
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0675dee8174786445b6ca7503be31d93
+      internalID: 8089076268708131969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09c2f141c7128e45ba0097e25e3e4de
+      internalID: -9016603891803540992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_21
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd553258f2dc0cc4e8430d6e54115d01
+      internalID: 5938957788710039154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe4de728e4e17a4ca5e20626fc238b1
+      internalID: -1927455495868335837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_23
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6376495a4ea72be4b9576afd9332df6f
+      internalID: -955143510338761022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5219b95142730441a13c981aecdc377
+      internalID: 3657317861545505882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_25
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfa0719739b96142b0ac3513c46d61d
+      internalID: -3833409422372972997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f62c644f2258a84f9ad958db33819ef
+      internalID: 8960691645239154698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfe1b633fd980d47ae219a066d923fb
+      internalID: -8490328989625246283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_28
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed645df20c78d745bae7234e1c0d6b1
+      internalID: -5356012539866579718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_29
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 177
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9e3720f9447c340953b316a1a5416d
+      internalID: -3361358353810675357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccee9eb3c411eb7439643f71ae3bc7b2
+      internalID: -1955765154267315609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_31
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e319a3a9f6b7e34dbbf25def932f89d
+      internalID: 1999025426656755694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c083e7ec9fd3847b24046eac4a11a2
+      internalID: 9015244391264884555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ecd8e3c8446742b36a44ab1d1a51a
+      internalID: -5309150105427993931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75294d44ccb903c4ea67a1dd895a0c6f
+      internalID: 788969370190482777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aec965cf50d6a84485b01196da6cae5
+      internalID: 8688177547943679885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f09672f8b23eb4785f56d87e5a7da2
+      internalID: 3619257808369597480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_37
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557c5c49dc582f645b7ec81661e62d1e
+      internalID: 4915109483399825103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_38
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bd4d2e7c1cc0d45960ae342c91c9c2
+      internalID: 8737543276286422441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_39
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 140
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd4ab1039e40fb4bb43fc714185e180
+      internalID: -6365677523596799632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_40
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 103
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243f7453942d8a440a53d5c2b2752a7a
+      internalID: 1395559082473300635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 103
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6176a87ee9f040a3bca7a6372db9e
+      internalID: -7125178509640073489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 66
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b018b6754f4734f95a5fe4ca516b3a
+      internalID: -2182446524226002828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_43
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 66
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae245d155e8b0347bbcae2c184d6c4b
+      internalID: 4503732029092752433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_44
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 29
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99241413080761d46a87a3dd876d3515
+      internalID: -3081368607559015992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bard_PlayerCharacter_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 29
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d01045bf5097042af0c62143fdfa79
+      internalID: -4121454923196796022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
