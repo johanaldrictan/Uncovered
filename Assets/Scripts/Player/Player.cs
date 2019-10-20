@@ -28,23 +28,23 @@ public class Player : MonoBehaviour
         }
         else
         {
-        if(Input.GetKey(KeyCode.W))
-        {
-            moveY = +1f;
-        }
-        else
-        if(Input.GetKey(KeyCode.S))
-        {
-            moveY = -1f;
-        }
-        else if(Input.GetKey(KeyCode.A))
-        {
-            moveX = -1f;
-        }
-        else if(Input.GetKey(KeyCode.D))
-        {
-            moveX = +1f;
-        }
+            if(Input.GetKey(KeyCode.W))
+            {
+                moveY = +1f;
+            }
+            else
+            if(Input.GetKey(KeyCode.S))
+            {
+                moveY = -1f;
+            }
+            else if(Input.GetKey(KeyCode.A))
+            {
+                moveX = -1f;
+            }
+            else if(Input.GetKey(KeyCode.D))
+            {
+                moveX = +1f;
+            }
         }
         animator.SetFloat("moveX", moveX);
         animator.SetFloat("moveY",moveY);
