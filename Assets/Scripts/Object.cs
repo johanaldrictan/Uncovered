@@ -4,9 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Object : MonoBehaviour
 {
-    public DialogueManager logger;
-    public GameObject dialogBox;
-    public Text dialogText;
+    private DialogueManager logger;
     [TextArea(3,10)]
     public bool dialogActive;
 
@@ -19,30 +17,30 @@ public class Object : MonoBehaviour
         
     }
 
+    void Awake()
+    {
+        logger = DialogueManager.FindObjectOfType<DialogueManager>();
+    }
     // Update is called once per frame
     void Update()
     {
-        
         if(Input.GetKeyDown(KeyCode.Space) && player)
         {
-            /*
-            if(dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);
-            }
-            else
-            {
-                dialogBox.SetActive(true);
-                //string diag = "This is a " + T;
-                TriggerDialogue();
-            }*/
             player = false;
             dia = true;
             TriggerDialogue();
-        }else if (Input.GetKeyDown(KeyCode.Space) && dia)
+        }
+        else
+        if (Input.GetKeyDown(KeyCode.Space) && dia)
         {
             logger.DisplayNextSentence();
+            if(logger.boxOn() == false)
+            {
+                dia = false;
+                player = true;
+            }
         }
+        
 
     }
 

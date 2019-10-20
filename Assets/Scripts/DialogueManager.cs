@@ -56,5 +56,9 @@ public class DialogueManager : MonoBehaviour
         anim.SetBool("IsOpen", false);
     }
 
+    public bool boxOn()
+    {
+        return anim.GetBool("IsOpen");
+    }
 
 }
