@@ -168,6 +168,7 @@ GameObject:
   - component: {fileID: 8683533679377919050}
   - component: {fileID: 8683533679377919048}
   - component: {fileID: 8683533679377919049}
+  - component: {fileID: 5633310625878652998}
   m_Layer: 0
   m_Name: Main Camera (1)
   m_TagString: MainCamera
@@ -382,6 +383,40 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4456c4ced6164484abea927fafca63e1,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  LargeModePositions: []
+  multiPositionArray: []
+--- !u!114 &5633310625878652998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8683533679377919063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e65820ce00ea6940b05f7148c60d7c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a4197f2e014f9404ea7f01bc09d7e5f3,
       type: 2}
   useCallbacks: 0
   Callbacks: []

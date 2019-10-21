@@ -14,10 +14,10 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	140393224	SidewalkAmbience	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SidewalkAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Secret\SidewalkAmbience		2422480
+	227382385	MainTheme	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\MainTheme_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MainTheme		35998448
 	528425118	SeagullsAmbience	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SeagullsAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Seagulls\SeagullsAmbience		1316700
 	530410544	SeagullsAmbience3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SeagullsAmbience3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Seagulls\SeagullsAmbience3		1316700
 	637795579	OceanWaves	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\OceanWaves_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\OceanWaves		1212092
-	757806272	SPR_NightTheme	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SPR_NightTheme_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SPR_NightTheme		3397296
 	1028420687	SeagullsAmbience2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\SeagullsAmbience2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Seagulls\SeagullsAmbience2		1316700
 	1032765659	PlaygroundAmbience	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Windows\SFX\PlaygroundAmbience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Overworld_Amb_Secret\PlaygroundAmbience		2422480
 

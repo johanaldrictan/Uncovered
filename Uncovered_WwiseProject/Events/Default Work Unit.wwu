@@ -107,7 +107,7 @@
 						<Action Name="" ID="{B958011C-C00F-4A0C-98AE-183CB6D2C34E}" ShortID="88404423">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SPR_NightTheme" ID="{E5CF62A3-FDC5-41CF-8C1B-6C12F4D63E04}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+									<ObjectRef Name="MainTheme" ID="{54D89B42-4EF9-4FDE-B6DF-3D7A2FF74E7E}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -121,7 +121,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SPR_NightTheme" ID="{E5CF62A3-FDC5-41CF-8C1B-6C12F4D63E04}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
+									<ObjectRef Name="MainTheme" ID="{54D89B42-4EF9-4FDE-B6DF-3D7A2FF74E7E}" WorkUnitID="{4F7B134A-B3EB-4F36-B697-53CB5BF5A852}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

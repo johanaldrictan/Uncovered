@@ -24,11 +24,14 @@ public class Cursor : MonoBehaviour
 
     public Animator animator;
 
+    private int next_scene;
+
     // Start is called before the first frame update
     void Start()
     {
         hits = 0;
         finds = 0;
+        next_scene = 0;
         ButtonScriptObject = GameObject.Find("Button Script");
     }
 
@@ -80,12 +83,7 @@ public class Cursor : MonoBehaviour
                     } else if (SceneManager.GetActiveScene().name == "Dig 2") {
                         Global.item2found = true;
                     } else if (SceneManager.GetActiveScene().name == "Dig 3") {
-                        /*
-
-                        ADD ENDING SCENEN IF POSSIBLE HEREHR
-
-
-                         */
+                        next_scene = 5;
                        }
                 Exit();
             }
@@ -175,7 +173,7 @@ public class Cursor : MonoBehaviour
 
     public void ExitComplete()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(next_scene);
     }
     IEnumerator PlayFail()
     {
