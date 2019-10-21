@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dig 3.unity
     guid: 5633a208f66fd4532bf8e23c3154c7ea
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 2654e45d9c3a74102a8384a49d822a13
   m_configObjects: {}
