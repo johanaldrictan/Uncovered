@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour
     }
 
     public void ClickPlay() {
+        Debug.Log("aAAAAAAAAA");
         SceneManager.LoadScene(1);
     }
 
