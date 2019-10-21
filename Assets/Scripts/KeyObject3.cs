@@ -35,7 +35,7 @@ public class KeyObject3 : MonoBehaviour
         
         if(Input.GetKeyDown(KeyCode.Space) && player){
             DontDestroyOnLoad(positioner);
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
     }
 

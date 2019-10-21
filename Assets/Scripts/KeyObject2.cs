@@ -17,6 +17,7 @@ public class KeyObject2 : MonoBehaviour
     
     private bool MAINOBJECT = false;
     
+    public PosSave positioner;
    
     // Start is called before the first frame update
     void Start()
@@ -27,13 +28,16 @@ public class KeyObject2 : MonoBehaviour
     {
         logger = DialogueManager.FindObjectOfType<DialogueManager>();
         iMan = ItemManager.FindObjectOfType<ItemManager>();
+        positioner = PosSave.FindObjectOfType<PosSave>();
+        
     }
     // Update is called once per frame
     void Update()
     {
         
         if(Input.GetKeyDown(KeyCode.Space) && player){
-            SceneManager.LoadScene(2);
+            DontDestroyOnLoad(positioner);
+            SceneManager.LoadScene(3);
             
         }
     }
