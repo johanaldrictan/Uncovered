@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1570490760	Play_SFX_Excav_Found			\Default Work Unit\Play_SFX_Excav_Found	
+	1701975916	Play_SFX_Excav_Brush			\Default Work Unit\Play_SFX_Excav_Brush	
+	3121859900	Play_SFX_Excav_Dig			\Default Work Unit\Play_SFX_Excav_Dig	
+	3833599577	Play_SFX_Coin			\Default Work Unit\Play_SFX_Coin	
+	4274094232	Play_SFX_Excav_Fail			\Default Work Unit\Play_SFX_Excav_Fail	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	61935095	Brush6	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Brush6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush6		265516
+	81253111	Dig5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Dig5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig5		95416
+	92733396	Brush4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Brush4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush4		133216
+	129270777	Dig2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Dig2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig2		95416
+	207061055	ExcavationFound	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\ExcavationFound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ExcavationFound		163140
+	296835804	Brush5	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Brush5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush5		189916
+	347400003	Brush2	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Brush2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush2		143452
+	369913505	Dig1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Dig1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig1		95416
+	412740056	Dig4	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Dig4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig4		95416
+	598303621	Brush3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Brush3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush3		152116
+	722675397	Brush1	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Brush1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Brush\Brush1		123100
+	793283419	Dig3	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Dig3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Excav_Shovel\Dig3		95416
+	852794906	ExcavationFail	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\ExcavationFail_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ExcavationFail		757704
+	873785404	Coin	D:\OneDrive\Documents\Github Projects\Uncovered\Uncovered_WwiseProject\.cache\Mac\SFX\Coin_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coin		154480
+

@@ -16,7 +16,6 @@
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3833599577" Name="Play_SFX_Coin" ObjectPath="\Events\Default Work Unit\Play_SFX_Coin" DurationType="OneShot" DurationMin="0.757354" DurationMax="1.010947"/>
 				<Event Id="3902146761" Name="Play_SFX_Walk" ObjectPath="\Events\Default Work Unit\Play_SFX_Walk" DurationType="OneShot" DurationMin="0.282075" DurationMax="1.397767"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -84,10 +83,6 @@
 					<ShortName>Gravel_Walk3.wav</ShortName>
 					<Path>SFX\Gravel_Walk3_10C4C929.wem</Path>
 				</File>
-				<File Id="873785404" Language="SFX">
-					<ShortName>Coin.wav</ShortName>
-					<Path>SFX\Coin_10C4C929.wem</Path>
-				</File>
 				<File Id="885252225" Language="SFX">
 					<ShortName>Sand_Walk5.wav</ShortName>
 					<Path>SFX\Sand_Walk5_10C4C929.wem</Path>
@@ -124,6 +119,7 @@
 			<ShortName>Excavation</ShortName>
 			<Path>Excavation.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3833599577" Name="Play_SFX_Coin" ObjectPath="\Events\Default Work Unit\Play_SFX_Coin" DurationType="OneShot" DurationMin="0.757354" DurationMax="1.010947"/>
 				<Event Id="1701975916" Name="Play_SFX_Excav_Brush" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Brush" DurationType="OneShot" DurationMin="0.603383" DurationMax="1.738190"/>
 				<Event Id="3121859900" Name="Play_SFX_Excav_Dig" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Dig" DurationType="OneShot" DurationMin="0.467547" DurationMax="0.624100"/>
 				<Event Id="4274094232" Name="Play_SFX_Excav_Fail" ObjectPath="\Events\Default Work Unit\Play_SFX_Excav_Fail" DurationType="OneShot" DurationMin="3.717175" DurationMax="4.961834"/>
@@ -182,6 +178,10 @@
 					<ShortName>ExcavationFail.wav</ShortName>
 					<Path>SFX\ExcavationFail_10C4C929.wem</Path>
 				</File>
+				<File Id="873785404" Language="SFX">
+					<ShortName>Coin.wav</ShortName>
+					<Path>SFX\Coin_10C4C929.wem</Path>
+				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
 		<SoundBank Id="2609808943" Language="SFX">
@@ -190,7 +190,7 @@
 			<Path>World.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3621165624" Name="Play_MUS_Overworld" ObjectPath="\Events\Default Work Unit\Play_MUS_Overworld" DurationType="Infinite"/>
-				<Event Id="1395785617" Name="Play_SFX_Amb_Seagulls" ObjectPath="\Events\Default Work Unit\Play_SFX_Amb_Seagulls" DurationType="OneShot" DurationMin="5.935111" DurationMax="7.922422"/>
+				<Event Id="1395785617" Name="Play_SFX_Amb_Seagulls" ObjectPath="\Events\Default Work Unit\Play_SFX_Amb_Seagulls" DurationType="Infinite"/>
 				<Event Id="1251254653" Name="Play_SFX_Amb_Secret" ObjectPath="\Events\Default Work Unit\Play_SFX_Amb_Secret" DurationType="OneShot" DurationMin="11.885681" DurationMax="15.865481"/>
 				<Event Id="3409418128" Name="Play_SFX_Ocean" ObjectPath="\Events\Default Work Unit\Play_SFX_Ocean" DurationType="Infinite"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
@@ -200,6 +200,10 @@
 				<File Id="140393224" Language="SFX">
 					<ShortName>SidewalkAmbience.wav</ShortName>
 					<Path>SFX\SidewalkAmbience_10C4C929.wem</Path>
+				</File>
+				<File Id="227382385" Language="SFX">
+					<ShortName>MainTheme.wav</ShortName>
+					<Path>SFX\MainTheme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="528425118" Language="SFX">
 					<ShortName>SeagullsAmbience.wav</ShortName>
@@ -212,10 +216,6 @@
 				<File Id="637795579" Language="SFX">
 					<ShortName>OceanWaves.wav</ShortName>
 					<Path>SFX\OceanWaves_D79FB2B7.wem</Path>
-				</File>
-				<File Id="757806272" Language="SFX">
-					<ShortName>SPR_NightTheme.wav</ShortName>
-					<Path>SFX\SPR_NightTheme_D79FB2B7.wem</Path>
 				</File>
 				<File Id="1028420687" Language="SFX">
 					<ShortName>SeagullsAmbience2.wav</ShortName>

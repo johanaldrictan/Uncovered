@@ -20,14 +20,16 @@
 	<Platform GUID="{554B385E-B73F-44BD-893B-E7F82D476FA3}">
 		<Banks>
 			<Language ID="393239870">
+				<File Name="Excavation" Hash="2180892448" Timestamp="1571620764"/>
 				<File Name="Init" Hash="399428863" Timestamp="1571607919"/>
 				<File Name="Master" Hash="3212954879" Timestamp="1571574670"/>
-				<File Name="World" Hash="221793268" Timestamp="1571607919"/>
+				<File Name="Player" Hash="3675740207" Timestamp="1571620764"/>
+				<File Name="World" Hash="1507169650" Timestamp="1571620765"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1087800377" Timestamp="1571607919"/>
+				<File Name="" Hash="2640697352" Timestamp="1571620765"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
