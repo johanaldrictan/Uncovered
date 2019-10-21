@@ -25,14 +25,18 @@ public class Cursor : MonoBehaviour
     public Animator animator;
 
     private int next_scene;
+    private bool foundPlayed;
+    private bool failPlayed;
 
     // Start is called before the first frame update
     void Start()
     {
         hits = 0;
         finds = 0;
-        next_scene = 1;
+        next_scene = 0;
         ButtonScriptObject = GameObject.Find("Button Script");
+        foundPlayed = false;
+        failPlayed = false;
     }
 
     // Update is called once per frame
@@ -41,6 +45,7 @@ public class Cursor : MonoBehaviour
         if (hits >= 50)
         {
             Debug.Log("loselseosles");
+            StartCoroutine(PlayFail());
             Exit();
         }
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < 4)
@@ -75,12 +80,14 @@ public class Cursor : MonoBehaviour
             if (finds >= find_limit)
             {
                     Debug.Log("You Win!");
-
+                StartCoroutine(PlayFound());
                     if (SceneManager.GetActiveScene().name == "Dig 1") {
                         Global.item1found = true;
                     } else if (SceneManager.GetActiveScene().name == "Dig 2") {
                         Global.item2found = true;
-                    }
+                    } else if (SceneManager.GetActiveScene().name == "Dig 3") {
+                        next_scene = 5;
+                       }
                 Exit();
             }
         }
@@ -169,17 +176,24 @@ public class Cursor : MonoBehaviour
 
     public void ExitComplete()
     {
-        SceneManager.LoadScene(1);
-
+        SceneManager.LoadScene(next_scene);
     }
     IEnumerator PlayFail()
     {
-        AkSoundEngine.PostEvent("Play_SFX_Excav_Fail", gameObject);
-        yield return new WaitForSeconds(4.0f);
+        if (!failPlayed)
+        {
+            failPlayed = true;
+            AkSoundEngine.PostEvent("Play_SFX_Excav_Fail", gameObject);
+            yield return new WaitForSeconds(4.0f);
+        }
     }
     IEnumerator PlayFound()
     {
-        AkSoundEngine.PostEvent("Play_SFX_Excav_Found", gameObject);
-        yield return new WaitForSeconds(1.0f);
+        if (!foundPlayed)
+        {
+            foundPlayed = true;
+            AkSoundEngine.PostEvent("Play_SFX_Excav_Found", gameObject);
+            yield return new WaitForSeconds(1.0f);
+        }
     }
 }
