@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: b50a60a021c2cc94abb5d28a301d9682
   - enabled: 1
-    path: Assets/Scenes/Island.unity
-    guid: a20d428536c14e84692378d9a7bfabd8
+    path: Assets/Scenes/HenryScene.unity
+    guid: 543e673fd2c8e6242909b2f225d4d02a
   - enabled: 1
     path: Assets/Scenes/Dig 1.unity
     guid: 611fbdc6565aea24cacde093a7aa21ed
