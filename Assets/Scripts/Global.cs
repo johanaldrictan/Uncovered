@@ -9,4 +9,6 @@ public static  class Global
 
     public static bool hint1 = false;
     public static bool hint2 = false;
+
+    public static int next_scene = 1;
 }
