@@ -31,7 +31,7 @@ public class Cursor : MonoBehaviour
     {
         hits = 0;
         finds = 0;
-        next_scene = 0;
+        next_scene = 1;
         ButtonScriptObject = GameObject.Find("Button Script");
     }
 
@@ -82,9 +82,7 @@ public class Cursor : MonoBehaviour
                         Global.item1found = true;
                     } else if (SceneManager.GetActiveScene().name == "Dig 2") {
                         Global.item2found = true;
-                    } else if (SceneManager.GetActiveScene().name == "Dig 3") {
-                        next_scene = 5;
-                       }
+                    }
                 Exit();
             }
         }
@@ -173,7 +171,8 @@ public class Cursor : MonoBehaviour
 
     public void ExitComplete()
     {
-        SceneManager.LoadScene(next_scene);
+        SceneManager.LoadScene(1);
+
     }
     IEnumerator PlayFail()
     {
