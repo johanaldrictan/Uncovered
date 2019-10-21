@@ -32,8 +32,8 @@ public class UIController : MonoBehaviour {
         }
         else
         {
-            HowToCanvas.SetActive(false);
-            HowToCanvas.GetComponent<CanvasGroup>().interactable = false;
+            //HowToCanvas.SetActive(false);
+            //HowToCanvas.GetComponent<CanvasGroup>().interactable = false;
         }
 
     }
