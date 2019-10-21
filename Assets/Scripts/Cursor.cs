@@ -85,9 +85,15 @@ public class Cursor : MonoBehaviour
                         Global.item1found = true;
                     } else if (SceneManager.GetActiveScene().name == "Dig 2") {
                         Global.item2found = true;
-                    } else if (SceneManager.GetActiveScene().name == "Dig 3") {
-                        next_scene = 5;
-                       }
+                    }
+                    if (find_limit == 9)
+                    {
+                        Global.next_scene = 5;
+                    }
+                /*else if (SceneManager.GetActiveScene().name == "Dig 2")
+              {
+                  Global.item2found = true;
+              }*/
                 Exit();
             }
         }
@@ -176,7 +182,8 @@ public class Cursor : MonoBehaviour
 
     public void ExitComplete()
     {
-        SceneManager.LoadScene(next_scene);
+        SceneManager.LoadScene(Global.next_scene);
+
     }
     IEnumerator PlayFail()
     {
