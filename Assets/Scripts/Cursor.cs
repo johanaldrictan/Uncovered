@@ -41,7 +41,6 @@ public class Cursor : MonoBehaviour
         if (hits >= 50)
         {
             Debug.Log("loselseosles");
-            StartCoroutine(PlayFail());
             Exit();
         }
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < 4)
@@ -76,7 +75,6 @@ public class Cursor : MonoBehaviour
             if (finds >= find_limit)
             {
                     Debug.Log("You Win!");
-                    StartCoroutine(PlayFound());
 
                     if (SceneManager.GetActiveScene().name == "Dig 1") {
                         Global.item1found = true;
@@ -177,7 +175,7 @@ public class Cursor : MonoBehaviour
     }
     IEnumerator PlayFail()
     {
-        AkSoundEngine.PostEvent("Play_SFX_Excav_Found", gameObject);
+        AkSoundEngine.PostEvent("Play_SFX_Excav_Fail", gameObject);
         yield return new WaitForSeconds(4.0f);
     }
     IEnumerator PlayFound()
